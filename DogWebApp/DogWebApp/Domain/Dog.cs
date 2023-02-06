@@ -27,6 +27,7 @@ namespace DogWebApp.Domain
 
         public string Breed { get; set; }
 
-        public string ImageUrl { get; set; }
+        
+        public string Picture { get; internal set; }
     }
 }
